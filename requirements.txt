@@ -3,3 +3,4 @@ pyvis
 networkx
 jinja2
 pandas
+openpyxl
