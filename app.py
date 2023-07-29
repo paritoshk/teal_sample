@@ -24,7 +24,7 @@ Please select your options in the sidebar 👉 to start exploring!
 """)
 
 # Read your data
-df = pd.read_excel('hetionet_dump/data/filtered_edges.xlsx')
+df = pd.read_excel('data/filtered_edges.xlsx')
 required_columns = [
     'kind_edge', 'direction', 'data.source_edge', 'data.unbiased', 'data.sources', 'data.method', 'data.subtypes',
     'source_type', 'target_type', 'name_source_node', 'data.description_source_node', 'name_target_node', 'data.description_target_node'
